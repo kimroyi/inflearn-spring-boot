@@ -9,6 +9,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 public class MemoryCondition implements Condition {
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        // VM옵션을 추가 후 테스트 해보자
         //-Dmemory=on
         String memory = context.getEnvironment().getProperty("memory");
         log.info("memory={}", memory);
