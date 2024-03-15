@@ -1,4 +1,4 @@
-package memory.memory;
+package memory;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

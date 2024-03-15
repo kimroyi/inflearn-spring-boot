@@ -1,4 +1,4 @@
-package memory.memory;
+package memory;
 
 public class Memory {
     private long used;
