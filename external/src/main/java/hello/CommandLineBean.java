@@ -8,6 +8,10 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 커맨드 라인 옵션 인수 실행
+ * --url=devdb --username=dev_user --password=dev_pw mode=on
+ */
 @Slf4j
 @Component
 public class CommandLineBean {
