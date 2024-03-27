@@ -24,3 +24,12 @@ info:
   app:
     name: hello-actuator
     company: yh
+
+logging:
+  level:
+    hello.controller: debug
+#postMan POST요청을 사용하여 로거 레벨을 실시간으로 변경도 가능하다
+#body -> raw -> JSON 으로 전달
+#{
+#    "configuredLevel": "TRACE"
+#}

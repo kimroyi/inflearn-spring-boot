@@ -6,8 +6,9 @@ management:
       enabled: true
     env:
       enabled: true
-    git:
-      mode: 'full'
+    #git의 자세한 정보까지 표기
+    #git:
+      #mode: 'full'
   endpoint:
     shutdown:
       enabled: true
@@ -23,3 +24,7 @@ info:
   app:
     name: hello-actuator
     company: yh
+
+logging:
+  level:
+    hello.controller: debug
