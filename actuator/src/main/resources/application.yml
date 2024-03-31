@@ -36,3 +36,7 @@ logging:
 #{
 #    "configuredLevel": "TRACE"
 #}
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
