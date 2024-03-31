@@ -9,6 +9,9 @@ management:
     #git의 자세한 정보까지 표기
     #git:
       #mode: 'full'
+  # actuator 접근 포트를 설정 가능
+  server:
+    port: 8080
   endpoint:
     shutdown:
       enabled: true
